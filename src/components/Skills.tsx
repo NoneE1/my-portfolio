@@ -1,5 +1,5 @@
 import SkillCard from "./SkillCard";
-import { Skill } from "../index";
+import { Skill } from "../index.js";
 
 const Skills = () => {
   return (
