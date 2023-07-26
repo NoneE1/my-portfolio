@@ -6,5 +6,6 @@ export default defineConfig({
   build: {
     target: "esnext",
   },
+  base: "/my-portfolio/",
   plugins: [react()],
 });
