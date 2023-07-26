@@ -22,7 +22,7 @@ const GitCard = ({
   color,
 }: GitCardProps) => {
   return (
-    <div className="border-gray-300 rounded-md border p-3 flex flex-col justify-between overflow-scroll no-scrollbar">
+    <div className="border-gray-300 rounded-md border p-3 flex flex-col justify-between overflow-scroll no-scrollbar w-96">
       <div className="flex justify-start gap-2 text-xl items-center font-semibold break-normal">
         <BsGithub className="min-h-[24px] min-w-[24px]" />
         <a href={url} className="text-blue-700" target="_blank">
